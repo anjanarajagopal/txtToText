@@ -16,5 +16,6 @@
 		"https://*/",
 		"http://*/",
 		"tabs"
-	]
+	],
+	"web_accessible_resources": ["txtToTextIcon.jpg"]
 }
