@@ -4,7 +4,7 @@
 	"version": "1.0",
 	"description": "Replaces text lingo with full words",
 	"icons": {
-		"16": "txtToTextIcon.jpg"
+		"16": "txtToTextIcon.png"
 	},
 	"content_scripts": [
 		{
@@ -16,5 +16,6 @@
 		"https://*/",
 		"http://*/",
 		"tabs"
-	]
+	],
+	"web_accessible_resources": ["txtToTextIcon.jpg"]
 }
